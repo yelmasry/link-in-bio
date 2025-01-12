@@ -2,12 +2,45 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title> Yarra Elmasry's links </title>
+   
+   <style>
+      body {
+        min-height: 100; 
+        padding-top: 40px; 
+        padding-bottom: 40px; 
+        background: radial-gradient(circle at 50% 50%, #142850, #14365f, #13476f, #125d80, #107792, #0d96a5, #09b8b4, #04ccb1); /* made at https://learnui.design/tools/gradient-generator.html */ 
+        color: white; 
+      }
+
+      a{
+        color: white; 
+      }
+
+      html {
+        min-height: 100%; 
+      }
+
+      .avatar-image {
+        width: 128px; 
+        height: 128px; 
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px; 
+        height: 48px;  
+        border-radius: 48px; 
+        object-fit: cover; 
+      }
+
+    </style>
   </head>
   
   <body>
     <div class="main-container">
-      <div class="headshot">
-        <img src="images/headshot.jpg" alt="headshot of a smiling woman"
+      <div class="image-row">
+        <img src="thumbnails/headshot.jpg" alt="headshot of a smiling woman" class="avatar-image" 
       </div>
       
       <div class="name-row">
@@ -15,28 +48,29 @@
       </div>
 
       <div class="socials">
-        <a href="https://www.linkedin.com/in/yarra-elmasry-1b48ab169/"> LinkedIn </a>
-        <a href="https://www.instagram.com/yarraelmasry/?hl=en"> Instagram </a>
-        <a href="https://x.com/yae293"> Twitter </a>
+        <a href="https://www.linkedin.com/in/yarra-elmasry-1b48ab169/" target="_blank"> LinkedIn </a>
+        <a href="https://www.instagram.com/yarraelmasry/?hl=en" target="_blank"> Instagram </a>
+        <a href="https://x.com/yae293" target="_blank"> Twitter </a>
       </div>
 
+      
       <div class="links-row">
         <div class="item"> 
-          <img src="images/yarra.png">
+          <img src="thumbnails/yarra.png" class="thumbnail">
          
           <a target="_blank" href="https://www.yarraelmasry.com"> My photography website 
           </a>
         </div>
         
         <div class="item"> 
-          <img src="images/msk.png">
+          <img src="thumbnails/msk.png" class="thumbnail">
           
           <a href="https://www.mskcc.org/"> Support Memorial Sloan Kettering 
           </a>
         </div>
 
         <div class="item"> 
-          <img src="images/aleppo.png" alt="cover of cookbook with pomegranates on it">
+          <img src="thumbnails/aleppo.png" alt="cover of cookbook with pomegranates on it" class="thumbnail">
           
           <a href="https://www.interlinkbooks.com/product/aleppo-cookbook-the/"> My favourite cookbook </a>
         </div>   <! --  links-row -->
