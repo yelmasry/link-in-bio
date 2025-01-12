@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title> Yarra Elmasry's links </title>
+    <title> Yarra Elmasry's links </title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script> 
    
    <style>
       body {
@@ -15,6 +17,7 @@
 
       a{
         color: white; 
+        text-decoration: none;
       }
 
       html {
@@ -34,6 +37,41 @@
         object-fit: cover; 
       }
 
+      .main-container{
+        max-width: 640px; 
+        margin: auto; 
+      }
+
+      .image-row {
+        margin-bottom: 20px; 
+        text-align: center; 
+      }
+
+      .name-row {
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-family: "Verdana"; 
+        font-size: 24px; 
+        font-weight: 900px; 
+      }
+
+      .socials {
+        margin-bottom: 30px; 
+        display: flex; 
+        justify-content: space-around; 
+      }
+
+      .item {
+        margin-bottom: 20px; 
+        display: flex; 
+        align-items: center; 
+      }
+
+      .link-text {
+        text-align: center; 
+        flex-grow: 1; 
+      }
+
     </style>
   </head>
   
@@ -48,9 +86,9 @@
       </div>
 
       <div class="socials">
-        <a href="https://www.linkedin.com/in/yarra-elmasry-1b48ab169/" target="_blank"> LinkedIn </a>
-        <a href="https://www.instagram.com/yarraelmasry/?hl=en" target="_blank"> Instagram </a>
-        <a href="https://x.com/yae293" target="_blank"> Twitter </a>
+        <a href="https://www.linkedin.com/in/yarra-elmasry-1b48ab169/" target="_blank"> LinkedIn <i class="fa-brands fa-linkedin"></i> </a>
+        <a href="https://www.instagram.com/yarraelmasry/?hl=en" target="_blank"> Instagram <i class="fa-brands fa-instagram"></i> </a>
+        <a href="https://x.com/yae293" target="_blank"> Twitter <i class="fa-brands fa-twitter"></i> </a>
       </div>
 
       
@@ -58,21 +96,21 @@
         <div class="item"> 
           <img src="thumbnails/yarra.png" class="thumbnail">
          
-          <a target="_blank" href="https://www.yarraelmasry.com"> My photography website 
+          <a class="link-text" target="_blank" href="https://www.yarraelmasry.com"> My photography website  
           </a>
         </div>
         
         <div class="item"> 
           <img src="thumbnails/msk.png" class="thumbnail">
           
-          <a href="https://www.mskcc.org/"> Support Memorial Sloan Kettering 
+          <a class="link-text" target="_blank" href="https://www.mskcc.org/"> Support Memorial Sloan Kettering 
           </a>
         </div>
 
         <div class="item"> 
           <img src="thumbnails/aleppo.png" alt="cover of cookbook with pomegranates on it" class="thumbnail">
           
-          <a href="https://www.interlinkbooks.com/product/aleppo-cookbook-the/"> My favourite cookbook </a>
+          <a class="link-text" target="_blank" href="https://www.interlinkbooks.com/product/aleppo-cookbook-the/"> My favourite cookbook </a>
         </div>   <! --  links-row -->
 
       </div> <! --  main container -->
